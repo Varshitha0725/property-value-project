@@ -1,7 +1,7 @@
 
-
+import { useNavigate } from "react-router-dom";
 function UserDashboard() {
-  const navigate = useNavigate();
+   const navigate = useNavigate();
   const userName = localStorage.getItem("userName");
 
 
