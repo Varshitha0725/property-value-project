@@ -37,10 +37,6 @@ const handleSubmit = () => {
 
   navigate("/recommendations");
 };
-  const handleLogout = () => {
-    localStorage.removeItem("loggedInUser");
-    navigate("/login");
-  };
 
   return (
     <div style={styles.container}>

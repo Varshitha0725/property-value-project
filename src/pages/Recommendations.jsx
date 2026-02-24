@@ -18,11 +18,6 @@ function Recommendations() {
     }
   }, []);
 
-  const handleLogout = () => {
-    localStorage.removeItem("loggedInUser");
-    navigate("/login");
-  };
-
   const generateRecommendations = (data) => {
     let ideas = [];
 
