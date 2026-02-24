@@ -1,0 +1,87 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/* Left side with image */
+.login-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
+  background: #f9f9f9;
+}
+
+.login-image {
+  width: 105%;        /* shrink image */
+  max-width: 590px;  /* prevent it from being too large */
+  height: 100;
+  border-radius: 8px;
+}
+.site-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 24px;   /* pushes login card down */
+  text-align: center;
+}
+
+
+
+
+/* Right side with form */
+.login-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;   /* stack title + card vertically */
+  justify-content: center;  /* center vertically as a group */
+  align-items: center;      /* center horizontally */
+}
+
+
+.login-card {
+  width: 350px;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  background: #fff;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.role-select {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 15px;
+}
+

@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #66baea, #544ba2);
+}
+
+.card {
+  border-radius: 15px;
+}
+
+/* App.css */
+.site-title {
+  font-family: "Georgia", "Times New Roman", serif;  /* 👈 choose your font */
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 24px;
+}
