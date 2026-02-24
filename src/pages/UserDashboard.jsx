@@ -4,11 +4,6 @@ function UserDashboard() {
   const navigate = useNavigate();
   const userName = localStorage.getItem("userName");
 
-  const handleLogout = () => {
-    localStorage.removeItem("userName");
-    localStorage.removeItem("role");
-    navigate("/login");
-  };
 
   return (
     <div style={styles.container}>

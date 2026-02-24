@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 function Recommendations() {
   const [propertyData, setPropertyData] = useState(null);
-  const navigate = useNavigate();
+  
 
   useEffect(() => {
     const storedProperties =
