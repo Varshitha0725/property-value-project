@@ -1,6 +1,6 @@
 // src/pages/Recommendations.jsx
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+
 
 function Recommendations() {
   const [propertyData, setPropertyData] = useState(null);
